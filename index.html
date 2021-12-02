@@ -4,12 +4,16 @@
     <head>
         <title>IFrame</title>
         <style>
+            :root {
+                --white: #ffffff;
+                --main-purple-color: #5152fb;
+            }
             body{
                 margin: 0;
             }
             #push_notification_btn{
                 line-height: normal;
-                color: #ffffff;
+                color: var(--white);
                 padding: 0 0.75rem;
                 height: 2.0625rem;
                 border-radius: 0.3125rem;
@@ -20,40 +24,41 @@
                 font-style: normal;
                 font-size: 0.875rem;
                 font-weight: 500;
-                background: #5152fb;
+                background: var(--main-purple-color);
+                cursor: pointer;
             }
 
-            @media (min-width: 1921px) {
+            @media (min-width: 1750px) {
                 html {
                     font-size: 18px;
                 }
             }
 
-            @media (min-width: 2560px) {
+            @media (min-width: 1921px) {
                 html {
                     font-size: 22px;
                 }
             }
 
-            @media (min-width: 3840px) {
+            @media (min-width: 2560px) {
                 html {
                     font-size: 34px;
                 }
             }
 
-            @media (max-width: 1750px) {
+            @media (max-width: 1440px) {
                 html {
                     font-size: 14px;
                 }
             }
 
-            @media (max-width: 1440px) {
+            @media (max-width: 1280px) {
                 html {
                     font-size: 12px;
                 }
             }
 
-            @media (max-width: 1280px) {
+            @media (max-width: 992px) {
                 html {
                     font-size: 10px;
                 }
