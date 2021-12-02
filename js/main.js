@@ -1,5 +1,4 @@
 let btn = document.querySelector('#btn');
-if(!btn){
-  return false;
+if(btn){
+  btn.addEventListener('click', () => console.log('iframe'));
 }
-btn.addEventListener('click', () => console.log('iframe'));
