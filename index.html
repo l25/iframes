@@ -7,10 +7,61 @@
             body{
                 margin: 0;
             }
+            #push_notification_btn{
+                line-height: normal;
+                color: #ffffff;
+                padding: 0 0.75rem;
+                height: 2.0625rem;
+                border-radius: 0.3125rem;
+                border: 0;
+                width: -webkit-fit-content;
+                width: -moz-fit-content;
+                width: fit-content;
+                font-style: normal;
+                font-size: 0.875rem;
+                font-weight: 500;
+                background: #5152fb;
+            }
+
+            @media (min-width: 1921px) {
+                html {
+                    font-size: 18px;
+                }
+            }
+
+            @media (min-width: 2560px) {
+                html {
+                    font-size: 22px;
+                }
+            }
+
+            @media (min-width: 3840px) {
+                html {
+                    font-size: 34px;
+                }
+            }
+
+            @media (max-width: 1750px) {
+                html {
+                    font-size: 14px;
+                }
+            }
+
+            @media (max-width: 1440px) {
+                html {
+                    font-size: 12px;
+                }
+            }
+
+            @media (max-width: 1280px) {
+                html {
+                    font-size: 10px;
+                }
+            }
         </style>
     </head>
     <body>
-      <button id="push_notification_btn" class="btn btn-purple medium-text bold-text color-white">Connect</button>
+      <button id="push_notification_btn">Connect</button>
       <script src="js/main.js"></script>
     </body>
 </html>
